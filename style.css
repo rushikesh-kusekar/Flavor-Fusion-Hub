@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #eff0f3;
+}
+
+.k-name{
+    font-family:"Merienda";
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    color:#0d0d0d;
+}
+.bnr{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
