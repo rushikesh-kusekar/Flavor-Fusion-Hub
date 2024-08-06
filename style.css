@@ -4,16 +4,111 @@
     background-color: #eff0f3;
 }
 
+.align-center{
+    text-align: center;
+
+}
+
+.button-color{
+    color: #ff8e3c;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color:  #ff8e3c;
+    font-family: cursive;
+    border: 2px solid #e60000;
+    height: 70px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+      
+}
+
+.nav-img{
+    height: 60px;
+    background-color: #ff8e3c;
+    position: relative;
+    right: 120px;
+    margin-top: 5px;
+}
+.k-name2{
+    font-size: 25px;
+    background-color:#ff8e3c;
+    font-family:cursive;
+    position: relative;
+    right: 100px;
+    margin-top: 15px;
+}
+
+.nav-ele{
+    color: #eff0f3;
+    background-color:#ff8e3c;
+    font-size: 25px;
+    margin: 0 35px;
+    margin-top: 17px;
+    text-decoration: none;
+    position: relative;
+    left: 150px;
+   
+}
+
+
 .k-name{
     font-family:"Merienda";
     font-size: 50px;
-    text-align: center;
     margin: 30px;
     color:#0d0d0d;
+    
 }
 .bnr{
-    width: 75%;
+    width: 76%;
     display: block;
-    margin: 0 auto;
     border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.comp-text{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 30px;
+    color:#0d0d0d;
+
+}
+
+.heading-text{
+    font-size: 30px;
+    color: #0d0d0d;
+    font-weight: bold;
+    font-family: "Merienda";
+    margin-top: 30px;
+}
+.parent-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.card{
+    width: 230px;
+    margin: 10px;
+
+
+}
+
+.food-img{
+    border-radius: 100%;
+    width: 180px;
+    display: block;
+    margin: 5px auto;
+
+}
+
+.food-name{
+    font-size: 30px;
+    font-family:cursive;
+    text-decoration: none;
+    color: #0d0d0d;
 }
