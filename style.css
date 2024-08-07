@@ -156,22 +156,21 @@ body{
     font-size: 25px;
     font-family: cursive;
     text-align: center;
+    margin: 10px;
 
 }
 .text-age{
     font-size: 23px;
     font-family: cursive;
     text-align: center;
-    position: relative;
-    bottom: 10px;
+    margin: 5px;
 
 }
 .rating{
     width: 100px;
     display: block;
-    margin: 0 auto;
-    position: relative;
-    bottom: 10px;
+    margin: 10px auto;
+   
 }
 .footer{
     background-color:#4d0000;
@@ -180,7 +179,7 @@ body{
 }
 .address-1{
     color: #eff0f3;
-    font-size: 35px;
+    font-size: 33px;
 
 }
 .address-2{
@@ -190,5 +189,6 @@ body{
 }
 .num{
     font-size: 25px;
+    margin: 4px;
 
 }
