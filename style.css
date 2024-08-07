@@ -134,6 +134,7 @@ body{
     display: flex;
     justify-content: center;
    margin-top: 20px;
+   background-color:#fff0e6;
 
 
 }
@@ -171,4 +172,23 @@ body{
     margin: 0 auto;
     position: relative;
     bottom: 10px;
+}
+.footer{
+    background-color:#4d0000;
+    padding: 20px;
+    
+}
+.address-1{
+    color: #eff0f3;
+    font-size: 35px;
+
+}
+.address-2{
+    color: #eff0f3;
+    font-size: 20px;
+
+}
+.num{
+    font-size: 25px;
+
 }
