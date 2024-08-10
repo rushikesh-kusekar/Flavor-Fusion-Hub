@@ -24,7 +24,7 @@ We have various pages in this websites are as follows :
   This page content information about restaurant.
 - **Language Used** : HTML 5 and css
 
-## **About Us Page**
+## **Menu  Page**
 
 ![Menu page Screen Shot](./IMG/Ss2.png)
 
@@ -42,9 +42,9 @@ We have various pages in this websites are as follows :
 - **Summery Of Page** : This is an About Page.This page content information about Flavor Fusion Hub restaurant.
 - **Language Used** : HTML 5 and css
 
-## **Government Decision Page**
+## **Contact Page**
 
-![government decision page Screen Shot](./IMG/Ss4.png)
+![contact page Screen Shot](./IMG/Ss4.png)
 
 ## Information about contact page
 
