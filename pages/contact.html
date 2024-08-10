@@ -4,6 +4,82 @@
    
     <title>about</title>
     <link rel="stylesheet" href="./../style.css" class="css">
+    <style>
+        .contact-parent-card{
+            display: flex;
+            width: fit-content;
+           padding: 30px;
+           border: 3px solid #4d0000;
+           margin: 0px auto;
+           margin-top: 120px;
+           position: relative;
+           
+        }
+        .contact-img{
+            height: 370px;
+        }
+
+        .text1{
+            font-size: 40px;
+            font-weight: bold;
+            position: absolute;
+            top: 0%;
+            left: 65%;
+        }
+
+        .text-parent-card{
+            margin-top: 95px;
+            margin-left: 10px;
+            position: relative;
+            left: 3%;
+        }
+
+        .input2{
+            border: none;
+            border-bottom: 2px solid #0d0d0d;
+            padding: 0px;
+            margin: 10px;
+            height: 30px;
+            background-color: #eff0f3;
+            width: 200px;
+        }
+        .input2::placeholder{
+            color: #0d0d0d;
+            background-color: #eff0f3;
+            font-size: 15px;
+            font-weight:300;
+            font-family: cursive;
+        }
+
+        .btn{
+            margin: 10px;
+            height: 35px;
+            width: 120px;
+            border-radius: 20px;
+            background-color: #0d0d0d;
+            color: #eff0f3;
+            font-size: 15px;
+            font-family: cursive;
+            position: absolute;
+            top: 62%;
+            left: 17%;
+            cursor: pointer;
+        }
+        .text-parent-card-2{
+            
+            width: fit-content;
+            height: fit-content;
+            margin-left: 170px;
+            margin-top: 90px;
+            font-family: cursive;
+        }
+       .logo-smedia{
+        height: 40px;
+        display: block;
+        margin: 0 auto;
+       }
+
+    </style>
 
 </head>
 <body>
@@ -18,7 +94,49 @@
     </div>
 
     <div class="contact-parent-card">
-        img.
+        <img src="./../IMG/contact.jpg" alt="contact-service-img" class="contact-img">
+        <p class="text1">Contact us</p>
+        <div class="text-parent-card">
+         
+            <input type="text"  class="input2" placeholder="Name"><br>
+
+            <input type="email"  class="input2" placeholder="E-mail"><br>
+
+            <input type="text"  class="input2" placeholder="Massage"><br>
+
+            <button class="btn ">contact us</button>
+
+        </div>
+
+        <div class="text-parent-card-2">
+            <p class="text-1 align-center"><b>Contact</b><br>flavourfusionhub@gmail.com</p>
+
+            <p class="text-2 align-center"><b>Based In</b><br>Castleberry Market<br>177 Peters St Sw,
+                <br>Atlanta, GA 30313</p>
+                <img src="./../IMG/social-media-logo-collection.png" alt="logo" class="logo-smedia">
+        </div>
     </div>
+
+
+
+        <!-- <div class="footer">
+            <div class="f1 align-center">
+                <h1 class="address-1">Castleberry Market</h1>
+                <p class="address-2">177 Peters St Sw,
+                    <br>Atlanta, GA 30313
+                </p>
+                <p class="num button-color">404-748-9689</p>
+                <p class="address-2">Sun-Thur: 12-8pm<br>
+                    Fri-Sat: 12-10pm
+                </p>
+                <p class="num button-color">No Roservation</p>
+        
+            </div>
+          </div> -->
+
+
+
+        
+    
 </body>
 </html>
