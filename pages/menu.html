@@ -8,13 +8,57 @@
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Black+Ops+One&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=Lobster&family=Merienda:wght@300..900&family=Playwrite+AU+TAS:wght@100..400&family=Special+Elite&display=swap" rel="stylesheet">
     <style>
         .menu{
-            height: 180px;
-            display: block;
+           height: 180px;
+           display: block;
            margin-left:  auto;
            margin-right:  auto;
            margin-top: 80px;
+        }
+        .parent-card-pizza{
+            display: flex;
 
         }
+
+        .pizza-card{
+            width: 220px;
+            background-color: #ff8e3c;
+            margin: 30px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .pizza-img{
+            width: 200px;
+            display: block;
+           margin: 10px auto;
+            border-radius: 10px;
+
+        }
+        .pizza-name{
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .pizza-price{
+            font-size: 21px;
+           
+           
+        }
+        .btn{
+            padding: 10px;
+            border-radius: 7px;
+            display: block;
+            margin: 0px auto;
+            background-color: #0d0d0d;
+            color: #eff0f3;
+            border: none;
+            cursor: pointer;
+        }
+        .poster{ 
+           width: 100%;
+           margin-top: 60px;
+            
+        }
+
     </style>
 </head>
 <body>
@@ -28,7 +72,59 @@
         
     </div>
 
-  <img src="./../IMG/menu.png" alt="menu" class="menu">
+  <!-- <img src="./../IMG/menu.png" alt="menu" class="menu"> -->
+  <img src="./../IMG/pizza-banner.jpg" alt="poster-img" class="poster">
+
+  <div class="parent-card-pizza">
+
+    <div class="pizza-card">
+        <img src="./../IMG/cheesy-chicken-pizza.jpg" alt="pizza-img" class="pizza-img">
+        <p class="pizza-name">cheesy chicken</p>
+        <p class="pizza-price align-center">RS. 599 only</p>
+        <button class="btn">order now</button>
+
+    </div>
+
+    <div class="pizza-card">
+        <img src="./../IMG/veggie-pizza.jpg" alt="pizza-img" class="pizza-img">
+        <p class="pizza-name">veggie pizza</p>
+        <p class="pizza-price align-center">RS. 249 only</p>
+        <button class="btn">order now</button>
+
+    </div>
+
+    <div class="pizza-card">
+        <img src="./../IMG/tandoori-pizza.jpg" alt="pizza-img" class="pizza-img">
+        <p class="pizza-name">tandoori paneer</p>
+        <p class="pizza-price align-center">RS. 199 only</p>
+        <button class="btn">order now</button>
+
+    </div>
+
+    <div class="pizza-card">
+        <img src="./../IMG/chicken-tikka.jpg" alt="pizza-img" class="pizza-img">
+        <p class="pizza-name">chicken tikka</p>
+        <p class="pizza-price align-center">RS. 349 only</p>
+        <button class="btn">order now</button>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="f1 align-center">
+        <h1 class="address-1">Castleberry Market</h1>
+        <p class="address-2">177 Peters St Sw,
+            <br>Atlanta, GA 30313
+        </p>
+        <p class="num button-color">404-748-9689</p>
+        <p class="address-2">Sun-Thur: 12-8pm<br>
+            Fri-Sat: 12-10pm
+        </p>
+        <p class="num button-color">No Roservation</p>
+
+    </div>
+</div>
 
     
 </body>
