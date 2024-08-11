@@ -173,21 +173,27 @@ body{
     margin: 10px auto;
    
 }
+
 .footer{
     background-color:#4d0000;
     padding: 20px;
-    
+    width: 100%; 
+    position: relative;
+    bottom: 0%;
 }
+
 .address-1{
     color: #eff0f3;
     font-size: 33px;
 
 }
+
 .address-2{
     color: #eff0f3;
     font-size: 20px;
 
 }
+
 .num{
     font-size: 25px;
     margin: 4px;
